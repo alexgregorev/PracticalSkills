@@ -92,6 +92,9 @@ Cosine Similarity применяется в:
 
 
 tokenize() → разбивает текст на слова
+
 word_freq() → считает частоты слов
+
 cosine_similarity() → вычисляет сходство
+
 main() → демонстрация работы
