@@ -37,7 +37,7 @@ use | 0 | 1
 ## 📐 Cosine Similarity
 
 $$
-\cos(\theta) = \frac{A \cdot B}{\|A\| \, \|B\|}
+\cos(\theta) = \frac{A \cdot B}{\|A\| \cdot \|B\|}
 $$
 
 - **A · B** — скалярное произведение  
