@@ -48,6 +48,7 @@ similarity =
 
 
 1 → тексты одинаковые
+
 0 → тексты полностью разные
 
 
@@ -71,6 +72,7 @@ similarity =
 
 
 Text 1: machine learning improves search
+
 Text 2: search engines use machine learning
 
 Similarity = 0.67
