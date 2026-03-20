@@ -76,17 +76,6 @@ MediaPlayer → VideoOutput → UI
 
 ---
 
-## 🛠️ Сборка и запуск
-
-### 1. Клонирование репозитория
-
-```bash
-git clone <your-repo-url>
-cd <project-folder>
-```
-
----
-
 ## 🚀 Возможности расширения
 
 * 🎚️ Регулировка громкости
