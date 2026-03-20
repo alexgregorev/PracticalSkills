@@ -48,16 +48,6 @@
 
 ---
 
-## 🔄 Обновление HTML в реальном времени
-
-```cpp
-connect(editor, &QPlainTextEdit::textChanged, [=]() {
-    view->setHtml(editor->toPlainText());
-});
-```
-
----
-
 ## ⚙️ Технологии
 
 * **Qt 6**
