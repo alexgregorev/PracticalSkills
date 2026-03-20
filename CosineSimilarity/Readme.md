@@ -34,20 +34,18 @@ use | 0 | 1
 
 ## Формула
 
-\[
-similarity =
-\frac{A \cdot B}{|A| \times |B|}
-\]
+## 📐 Cosine Similarity
 
-где:
+**cos(θ) = (A · B) / (||A|| * ||B||)**
 
-- \(A \cdot B\) — скалярное произведение  
-- \(|A|\) и \(|B|\) — длины векторов  
+- **A · B** — скалярное произведение  
+- **||A||, ||B||** — длины векторов  
 
 Результат находится в диапазоне:
 
 
 1 → тексты одинаковые
+
 0 → тексты полностью разные
 
 
@@ -71,6 +69,7 @@ similarity =
 
 
 Text 1: machine learning improves search
+
 Text 2: search engines use machine learning
 
 Similarity = 0.67
@@ -92,6 +91,9 @@ Cosine Similarity применяется в:
 
 
 tokenize() → разбивает текст на слова
+
 word_freq() → считает частоты слов
+
 cosine_similarity() → вычисляет сходство
+
 main() → демонстрация работы
